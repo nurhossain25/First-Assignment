@@ -46,3 +46,32 @@ header p {
     width: 30%;
     margin-top: 30px;
 }
+
+/* styles information section */
+
+.information-section {
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.information-section img {
+    width: 400px;
+}
+
+.information-content {
+    padding-left: 100px;
+}
+
+.information-section h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.information-section p {
+    font-size: 20px;
+    color: rgba(68, 67, 67, 1);
+    margin-bottom: 20px;
+}
