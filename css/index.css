@@ -1,0 +1,93 @@
+header {
+    width: 1200px;
+    margin: auto;
+}
+
+.First-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text {
+    padding: 40px;
+    text-align: right;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.image img {
+    width: 500px;
+
+
+}
+
+.text button {
+    background-color: #F15B22;
+    color: white;
+
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.information {
+    display: flex;
+
+}
+
+.images {
+    width: 450px;
+}
+
+.plans {
+    text-align: center;
+    font-size: 80px;
+}
+
+.planing-details {
+    display: flex;
+
+
+}
+
+.planing-details div {
+    margin: 80px;
+}
+
+.gradient-details {
+    background-image: url(../images/gradient2.png);
+    height: 100%;
+    padding: 20px;
+
+}
+
+.gradient-title {
+    font-size: 50px;
+}
+
+.styles {
+    width: 150px;
+    height: 50px;
+    border-radius: round;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: 40px;
+}
+
+.primary-button {
+    width: 170.11px;
+    height: 64px;
+}
