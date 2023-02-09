@@ -156,3 +156,49 @@ header p {
     padding: 20px;
     border-radius: 10px;
 }
+
+/* Contact Section */
+.contact-section {
+    margin: 10% 20%;
+    height: 50vh;
+    background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+        url(../images/watch.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-section h1,
+button {
+    margin-left: 60px;
+}
+
+.contact-section h1 {
+    color: white;
+}
+
+
+.styles {
+    width: 150px;
+    height: 50px;
+    border-radius: round;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: 40px;
+}
+
+.primary-button {
+    width: 170.11px;
+    height: 64px;
+}
