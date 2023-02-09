@@ -1,93 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* style header */
+header h1 {
+    font-size: 65px;
+}
+
 header {
-    width: 1200px;
-    margin: auto;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: end;
+    height: 100vh;
 }
 
-.First-banner {
+.contents {
+    margin-right: 10%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: black;
+}
+
+.contact-button {
     padding: 20px;
-}
-
-.text {
-    padding: 40px;
-    text-align: right;
-}
-
-.text h1 {
-    font-size: 40px;
-}
-
-.image img {
-    width: 500px;
-
-
-}
-
-.text button {
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
     background-color: #F15B22;
-    color: white;
-
+    font-size: 16px;
+    font-weight: 600;
 }
 
-.details {
-    display: flex;
-    justify-content: space-around;
 
-}
-
-.information {
-    display: flex;
-
-}
-
-.images {
-    width: 450px;
-}
-
-.plans {
-    text-align: center;
-    font-size: 80px;
-}
-
-.planing-details {
-    display: flex;
-
-
-}
-
-.planing-details div {
-    margin: 80px;
-}
-
-.gradient-details {
-    background-image: url(../images/gradient2.png);
-    height: 100%;
-    padding: 20px;
-
-}
-
-.gradient-title {
-    font-size: 50px;
-}
-
-.styles {
-    width: 150px;
-    height: 50px;
-    border-radius: round;
-
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
-    margin-top: 40px;
-}
-
-.primary-button {
-    width: 170.11px;
-    height: 64px;
+header p {
+    width: 30%;
+    margin-top: 30px;
 }
